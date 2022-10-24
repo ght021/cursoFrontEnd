@@ -1,0 +1,134 @@
+@font-face{
+    font-family: "textos";
+    src: url(./IndieFlower-Regular.ttf);
+}
+body{
+    position: relative;
+    width: auto;
+    height: auto;
+    background: linear-gradient(168.28deg, #5A00A0 1.7%, #B16489 99.69%);
+    border-radius: 15px;
+}
+
+
+h1 {
+    font-family: "textos";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 35px;
+    text-align: center;
+    color: #F5F5F5;
+    transform: rotate(-0.43deg);
+    
+}
+
+h2 {
+    font-family: 'textos';
+    color: white;
+}
+
+
+h3 {
+    font-family: 'textos';
+    color: white;
+}
+
+h4 {
+    font-family: 'textos';
+    color: white;
+}
+
+h5 {
+    font-family: 'textos';
+    color: white;
+}
+
+footer{
+    position: relative;
+    font-family: "textos";
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.37);
+    color: #F5F5F5;
+    transform: rotate(-0.43deg);
+    margin: auto;
+}
+.logo {
+    display: block;
+    padding: 1px;
+    border: 2px;
+    margin: auto;
+    
+}
+    
+.pastel_muestra {
+    display: block;
+    padding: 2px;
+    border: 5px;
+    margin: auto;
+    border-radius: 19px;
+    height: 271px;
+    left: 22px;
+    top: 189px;
+}
+
+.boton {
+    /* position: absolute; */
+    width: 296px;
+    height: 48px;
+    background: #D171A5;
+    mix-blend-mode: normal;
+    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    font-family: 'textos';
+    padding: 5px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    font-family: 'textos';
+    color: white;
+}
+
+.sucursal {
+    display: flex;
+    background: #067FC2;
+    box-shadow: 6px 8px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.mapa {
+    border-radius: 15%;
+    padding: 5%;
+}
+
+.pastel_catal {
+    display: flex;
+    background: #D171A5;
+    box-shadow: 6px 8px 4px rgb(0 0 0 / 25%);
+    border-radius: 15px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.botonera_catalogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
