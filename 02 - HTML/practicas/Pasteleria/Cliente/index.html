@@ -1,37 +1,39 @@
-<!DOCTYPE html>
-    <html lang="en">
-            <head>
-                <meta charset="UTF-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Michi Pastelerias</title>
-                <link rel="stylesheet" href="/styles.css">
-            </head>
-        <body>
-            <header id="header" class="header">
-                <img src="./michi Logo.png" alt="logo Michi" id="logo" class="logo">
-            </header>
-            <main id="main" class="main">
-                <h1>Pastelesfinos del michiverso</h1>
-                <section id="presentacion" class="presentacion">
-                    <img src="./imagenes/pasteles/Doble Nivel bainilla chocolate.jpg" alt="pastel doble nivel bainilla cocolate" id="pastelMuestra" class="pastel_muestra">
-                </section>
-                <section id="botonera" class="botonera">
-                    <a href="Catalogo/catalogo.html">
-                        <button id="botonCatalogo" class="boton">Conoce nuestro catalogo</button>
-                    </a>
-                        <br>
-                    <a href="/Armapasteles/armapasteles.html">
-                        <button id="botonArmaPastel" class="boton">Arma pastel</button>
-                    </a>
-                        <br>
-                    <a href="/Sucursales/sucursales.html">
-                        <button id="botonSucursal" class="boton">Sucursales</button>
-                    </a>
-                </section>
-            </main>
-            <footer id="footer" class="footer">
-                <h6>Pasteles finos, con tematica felina, si gustas otro tipo de paseleria, te invitamos a visitar nuestro sitio madre, dando <a href="https://www.serviciosgato.com">Clik aqui</a></h6>
-            </footer>
-        </body>
-    </html>
+    <!DOCTYPE html>
+        <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Michi Pastelerias</title>
+                    <link rel="stylesheet" href="./styles.css">
+                </head>
+            <body>
+                <header id="header" class="header">
+                    <img src="./michi Logo.png" alt="logo Michi" id="logo" class="logo">
+                </header>
+                <main id="main" class="main">
+                    <section id="contenerdorDeBotones" class="buttons-conteiner">
+                        <h1>Pastelesfinos del michiverso</h1>
+                        <article id="presentacion" class="pastel_muestra">
+                            <img src="./imagenes/pasteles/Doble Nivel bainilla chocolate.jpg" alt="pastel doble nivel bainilla cocolate" id="pastelMuestra" class="pastel_muestra">
+                        </article>
+                        <article id="botonera" class="botonera">
+                            <a href="./Catalogo/catalogo.html" type="button" id="botonCatalogo" class="button" >
+                                Conoce nuestro catalogo
+                            </a>
+                            <a href="./Armapasteles/armapasteles.html" type="button" id="botonArmaPastel" class="button">
+                                Arma pastel
+                            </a>
+                            <a href="./Sucursales/sucursales.html" type="button" id="botonSucursal" class="button">
+                                Sucursales
+                            </a>
+
+                        </article>
+                    </section>    
+                </main>
+                <footer>
+                    <h6>Pasteles finos, con tematica felina, si gustas otro tipo de paseleria, te invitamos a visitar nuestro sitio madre, dando <a href="https://www.serviciosgato.com">Clik aqui</a></h6>
+                </footer>
+                <script src="./index.js"></script>
+            </body>
+        </html>
